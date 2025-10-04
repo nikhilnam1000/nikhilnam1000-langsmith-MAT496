@@ -33,3 +33,12 @@ Used the conversational thread view that openai offers, greatly improving readab
 Tweaked the two questions
 (See conversational_threads.ipynb )
 Note that I will run the openai api key in line to run the program then remove it before saving to avoid problems pushing onto git
+
+# Module 2
+## Lesson 1
+### What I Learnt
+Created an empty dataset and added examples from the ipynb file as 'golden examples' for the llm to refer to. Custom added an LLM generated question to the dataset and modified schemas.
+
+### What I tweaked
+Tweaked the input questions and added more examples to the dataset on the langchain platform.
+(See dataset_upload.ipynb)
