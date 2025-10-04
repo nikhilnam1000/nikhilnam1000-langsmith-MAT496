@@ -7,7 +7,7 @@ Learnt basic tracing concepts in lesson 1 with the overview of project, traces a
 
 ### What I tweaked
 I changed up the prompt of the RAG slightly and also the questions asked (I tried to be funny)
-(See tracing_basics.py)
+(See tracing_basics.ipynb)
 
 ## Lesson 2
 ### What I Learnt
@@ -15,10 +15,21 @@ Learnt about the different types of runs, compared a default chain type run with
 
 ### What I tweaked
 I slightly tweaked the inputs, didn't find much to tweak in the code elsewhere.
+(See types_of_runs.ipynb)
 
 ## Lesson 3
 ### What I learnt
 Learnt to use Langgraph, trace(), wrapopenai() and how it helps in tracking performance.
 
 ### What I tweaked
-Tweaked the inputs 
+Tweaked the inputs
+(See alternative_tracing_methods.ipynb)
+
+## Lesson 4
+### What I learnt
+Used the conversational thread view that openai offers, greatly improving readability for looking at the structure and improving performance.
+
+### What I tweaked
+Tweaked the two questions
+(See conversational_threads.ipynb )
+Note that I will run the openai api key in line to run the program then remove it before saving to avoid problems pushing onto git
