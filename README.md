@@ -42,3 +42,11 @@ Created an empty dataset and added examples from the ipynb file as 'golden examp
 ### What I tweaked
 Tweaked the input questions and added more examples to the dataset on the langchain platform.
 (See dataset_upload.ipynb)
+
+## Lesson 2
+### What I Learnt
+Used evaluators to compare dataset example against the output run from app, using a function to give a score from 1 to 10 on how similar the run is to the example and opened the auto-evaluator, custom edited in langchain.
+
+### What I tweaked
+Tweaked the run output to change the semantics score.
+(See evaluators.ipynb)
