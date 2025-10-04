@@ -57,3 +57,10 @@ Used evaluators to run experiments with different openai models, over datasets a
 
 ### What I Tweaked
 Used specific examples and tried my best to find out the dataset labelling problem.
+(See experiments.ipynb)
+##Lesson 4
+### What I learnt
+How to analyze experiments, seeing trends, diving deep into an experiment and running multiple experiments side by side to see evaluator metrics.
+
+### What I tweaked
+Nothing to tweak, no notebook
