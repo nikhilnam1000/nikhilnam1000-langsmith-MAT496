@@ -50,3 +50,10 @@ Used evaluators to compare dataset example against the output run from app, usin
 ### What I tweaked
 Tweaked the run output to change the semantics score.
 (See evaluators.ipynb)
+
+## Lesson 3
+### What I learnt
+Used evaluators to run experiments with different openai models, over datasets and specific examples, ran into problems cause I was unable to index datasets properly
+
+### What I Tweaked
+Used specific examples and tried my best to find out the dataset labelling problem.
