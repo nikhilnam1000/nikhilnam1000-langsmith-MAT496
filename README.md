@@ -15,3 +15,10 @@ Learnt about the different types of runs, compared a default chain type run with
 
 ### What I tweaked
 I slightly tweaked the inputs, didn't find much to tweak in the code elsewhere.
+
+## Lesson 3
+### What I learnt
+Learnt to use Langgraph, trace(), wrapopenai() and how it helps in tracking performance.
+
+### What I tweaked
+Tweaked the inputs 
