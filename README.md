@@ -64,3 +64,15 @@ How to analyze experiments, seeing trends, diving deep into an experiment and ru
 
 ### What I tweaked
 Nothing to tweak, no notebook
+
+# Module 3
+## Lesson 1
+~~*(Changing my video by video descriptions to correct for sparse explanations as per  instructor feedback).*~~
+
+Got introduced to and familiarized myself with the **Playground** on the langchain environment which is used for iterating on and testing prompts, which are supposed to serve as a benchmark for a wide variety of interactions.
+
+1. Hooked up OpenAI's API key and went on to converse with the LLM, and learning how to follow up on a question with context.  
+2. Learnt to compare different model providers against the same prompt side by side.
+3. Ran the same prompt multiple times simultaneously, which would help in tracking performances for complex prompts.  
+4. Added an output schema and a tool separately to guide the output in a certain direction.
+5. Finally we ran the associated notebook (**see playground_experiments.ipynb**), where a  simple new sample dataset was created (modified by me) with inputs and outputs and the inputs were re-run on playground to gauge performance and modify prompts to be able to match the LLM's output with the desired sample output.
