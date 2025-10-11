@@ -86,3 +86,11 @@ Got introduced to and familiarized myself with the Prompt section and prompt hub
 A lot of different custom prompts can be made according to use cases.
 4. Edited prompt (Christian missionary from the year 2400), committed the change, and ran the updated prompt.
 5. Next a prompt was added to the prompt hub (with an agenda modified by me) programmatically from the ipynb file, and then the same prompt was pushed to the prompt hub as a runnable sequence which allows us to change model providers, models and other details; and this was viewed and checked in the prompt hub.
+
+## Lesson 3: Prompt Engineering Lifecycle
+Opened the associated ipynb file (**see prompt_engineering_lifecycle.ipynb**), imported a rag application, ran it (with @traceable) and then opened langchain to look at the trace. Then I proceeded to:
+1. Open the trace in Playground, added a new dataset through the ipynb file and made a custom prompt (I made the prompt to use a lot of medical metaphors) for the RAG application.
+2. Removed the hard coded prompt from the ipynb file and replaced it with our new prompt context.
+3. Removed the manually formatted messages and used the prompt instead.
+
+Now everytime changes are to be made, the prompt can be updated accordingly and committed, which will automatically update it in our code, eliminating the need to change the code
