@@ -66,7 +66,7 @@ How to analyze experiments, seeing trends, diving deep into an experiment and ru
 Nothing to tweak, no notebook
 
 # Module 3
-## Lesson 1
+## Lesson 1: Playground
 ~~*(Changing my video by video descriptions to correct for sparse explanations as per  instructor feedback).*~~
 
 Got introduced to and familiarized myself with the **Playground** on the langchain environment which is used for iterating on and testing prompts, which are supposed to serve as a benchmark for a wide variety of interactions.
@@ -76,3 +76,13 @@ Got introduced to and familiarized myself with the **Playground** on the langcha
 3. Ran the same prompt multiple times simultaneously, which would help in tracking performances for complex prompts.  
 4. Added an output schema and a tool separately to guide the output in a certain direction.
 5. Finally we ran the associated notebook (**see playground_experiments.ipynb**), where a  simple new sample dataset was created (modified by me) with inputs and outputs and the inputs were re-run on playground to gauge performance and modify prompts to be able to match the LLM's output with the desired sample output.
+
+## Lesson 2: Prompt Templates
+
+Got introduced to and familiarized myself with the Prompt section and prompt hub in Langchain.
+1. Created a new chat-style prompt (which then takes us to the Playground section).  
+2. Prompted the system message to be a *christian missionary from the dark ages* (my diversion from the official demonstration, changing the nature of the prompt), setting the language as a variable and then added an output schema to track whatever the output is.
+3. Saved this custom prompt to the prompt hub and used it in the referred ipynb file (**see prompt_hub.ipynb**), model seemed to invoke prompt appropriately.  
+A lot of different custom prompts can be made according to use cases.
+4. Edited prompt (Christian missionary from the year 2400), committed the change, and ran the updated prompt.
+5. Next a prompt was added to the prompt hub (with an agenda modified by me) programmatically from the ipynb file, and then the same prompt was pushed to the prompt hub as a runnable sequence which allows us to change model providers, models and other details; and this was viewed and checked in the prompt hub.
