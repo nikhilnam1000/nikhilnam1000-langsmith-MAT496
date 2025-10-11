@@ -94,3 +94,12 @@ Opened the associated ipynb file (**see prompt_engineering_lifecycle.ipynb**), i
 3. Removed the manually formatted messages and used the prompt instead.
 
 Now everytime changes are to be made, the prompt can be updated accordingly and committed, which will automatically update it in our code, eliminating the need to change the code
+
+## Lesson 4: Prompt Canvas
+#### Note: There is no ipynb file associated with this lesson
+- Since prompts are pretty crucial to the function of any LLM application, the Prompt Canvas is there to help make and modify prompts using AI so that the prompts can be optimized even further.
+- We explore our past prompts(like the missionary-friend and medicine_metaphor) and use the prompt canvas to enhance the language used in the prompts (No one suited better to prompt AI than AI!).
+- Essentially we **'prompt'** AI in the prompt canvas and then the AI generates a **prompt context** for us to tailor our  custom prompts, which we can choose to change further using our own discretion (as well as ask the AI to make more changes).
+- We can then compare the differences using the functionality of the prompt canvas, commit the change which our LLM application then refers to when used later.  
+The functionality also enables the user to dictate how long we want the AI's generation of the prompt, and fix/improve grammar.
+
